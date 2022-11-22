@@ -1,27 +1,25 @@
-# IidaR: Instalación y Ejecución
+# IidaR: Instructions
 
-## Instalación de R
+## Install R
 
-1. Descargar e instalar [R](https://cran.dcc.uchile.cl) con las configuraciones por defecto.
-2. Descargar e instalar [RStudio](https://posit.co/download/rstudio-desktop) con las configuraciones por defecto.
+1. Download and install [R](https://cran.dcc.uchile.cl) with default settings.
+2. Download and install [RStudio](https://posit.co/download/rstudio-desktop) with default settings.
 
-## Instalación de Git
+## Install Git
 
- 1. Descargar e instalar [Git](https://git-scm.com/downloads) con las configuraciones por defecto.
+ 1. Download and install [Git](https://git-scm.com/downloads) with default settings.
 
-## Obtención del código fuente
+## Clone the source code
 
- 1. Abrir una **terminal** y ejecutar el siguiente comando:
+ 1. Open a terminal and execute the following command:
 
 ```bash
 git clone https://github.com/ffuentesp7/iidaR.git
 ```
 
-## Preparación de datos
+## Prepare your data
 
-1. Copiar y pegar dentro de la **carpeta del directorio**, las imágenes satelitales en formato GeoTIFF y los datos meteorológicos en formato CSV cuyo contenido contiene las siguientes columnas:
-
-*Datos de ejemplo*
+1. Inside the **repository's root folder**, paste your GeoTIFF satellite images and meteorological data CSV. The CSV file should have this structure:
 
 | Date | Time | Rad | wind_dir | RH | temp |
 |:----:|:----:|:----:|:----:|:----:|:----:|
@@ -29,7 +27,8 @@ git clone https://github.com/ffuentesp7/iidaR.git
 | 06/01/2010 | 0:30:00 | -3.1 | 1.42 | 51.2 | 23.1 |
 | 06/01/2010 | 1:00:00 | -2.9 | 2.03 | 48.1 | 22.5 |
 
-## Ejecución
+## Run
 
- 1. En **RStudio**, abrir el directorio que contiene el script y establecerlo como *working directory*.
- 2. Seleccionar todo el código y click en *Run*.
+ 1. In **RStudio**, set the repository's root folder as the *working directory*.
+ 2. Open the R script.
+ 3. Select all the code and click *Run*.
