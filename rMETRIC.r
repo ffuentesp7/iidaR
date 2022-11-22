@@ -1,8 +1,8 @@
-install.packages("devtools")
+install.packages("devtools", repos = "https://cran.dcc.uchile.cl")
 library(devtools)
 install_github("midraed/water")
 library(water)
-install.packages("RColorBrewer")
+install.packages("RColorBrewer", repos = "https://cran.dcc.uchile.cl")
 library(RColorBrewer)
 #AOI 50km2
 aoi<-createAoi(topleft = c(246419.3,6081628 ),
