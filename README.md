@@ -7,11 +7,11 @@
 
 ## Install Git
 
- 1. Download and install [Git](https://git-scm.com/downloads) with default settings.
+1. Download and install [Git](https://git-scm.com/downloads) with default settings.
 
 ## Clone the source code
 
- 1. Open a terminal and execute the following command:
+1. Open a terminal and execute the following command:
 
 ```bash
 git clone https://github.com/ffuentesp7/iidaR.git
@@ -29,7 +29,7 @@ git clone https://github.com/ffuentesp7/iidaR.git
 
 ## *Manual run in RStudio*
 
- 1. In **RStudio**, set the repository's root folder as the *working directory*.
- 2. Open the R script.
- 3. Adapt the code to your needs.
- 4. Select all the code and click *Run*.
+1. In **RStudio**, set the repository's root folder as the *working directory*.
+2. Open the R script.
+3. Adapt the code to your needs.
+4. Select all the code and click *Run*.
