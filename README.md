@@ -1,4 +1,4 @@
-# IidaR: Instructions
+# Install instructions for IidaR
 
 ## Install R
 
@@ -27,8 +27,9 @@ git clone https://github.com/ffuentesp7/iidaR.git
 | 06/01/2010 | 0:30:00 | -3.1 | 1.42 | 51.2 | 23.1 |
 | 06/01/2010 | 1:00:00 | -2.9 | 2.03 | 48.1 | 22.5 |
 
-## Run
+## *Manual run in RStudio*
 
  1. In **RStudio**, set the repository's root folder as the *working directory*.
  2. Open the R script.
- 3. Select all the code and click *Run*.
+ 3. Adapt the code to your needs.
+ 4. Select all the code and click *Run*.
