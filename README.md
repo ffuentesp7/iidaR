@@ -32,4 +32,4 @@ git clone https://github.com/ffuentesp7/iidaR.git
 1. In **RStudio**, set the repository's root folder as the *working directory*.
 2. Open the R script.
 3. Adapt the code to your needs.
-4. Select all the code and click *Run*.
+4. Run the code by clicking on *Source*.
